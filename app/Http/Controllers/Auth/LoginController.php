@@ -33,7 +33,7 @@ class LoginController extends Controller
             return redirect('home');
         }
 
-        return redirect('login')->with('error', 'Login details are not valid');
+        return redirect('login')->with('error', 'Login details are not valid please check.');
     }
 
     public function logout()
